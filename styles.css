@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 40px;
+    margin: 0.2em;
+    color: rgb(39, 24, 9);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.2em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(65, 65, 65);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    border-radius: 4px;
+}
+input[type=submit] {
+    color: rgb(83, 50, 31);
+    border-radius: 2px;
+}
